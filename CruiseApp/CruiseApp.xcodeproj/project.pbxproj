@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		CC1E8C88223D862100EBBB07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1E8C87223D862100EBBB07 /* AppDelegate.swift */; };
 		CC1E8C8A223D862100EBBB07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1E8C89223D862100EBBB07 /* ViewController.swift */; };
-		CC1E8C8D223D862100EBBB07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC1E8C8B223D862100EBBB07 /* Main.storyboard */; };
 		CC1E8C8F223D862200EBBB07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC1E8C8E223D862200EBBB07 /* Assets.xcassets */; };
 		CC1E8C92223D862200EBBB07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC1E8C90223D862200EBBB07 /* LaunchScreen.storyboard */; };
 		CC1E8C9D223D862200EBBB07 /* CruiseAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1E8C9C223D862200EBBB07 /* CruiseAppTests.swift */; };
@@ -17,6 +16,8 @@
 		CC1E8CB6223D97FD00EBBB07 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1E8CB5223D97FD00EBBB07 /* LocationViewController.swift */; };
 		CC1E8CB8223DA41400EBBB07 /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1E8CB7223DA41400EBBB07 /* EventTableViewCell.swift */; };
 		CC1E8CBA223DB6C100EBBB07 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1E8CB9223DB6C100EBBB07 /* Extension.swift */; };
+		CC1E8CBC223EBF2D00EBBB07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC1E8CBB223EBF2D00EBBB07 /* Main.storyboard */; };
+		CC1E8CC0223EC0E600EBBB07 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1E8CBF223EC0E600EBBB07 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +41,6 @@
 		CC1E8C84223D862100EBBB07 /* CruiseApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CruiseApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC1E8C87223D862100EBBB07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC1E8C89223D862100EBBB07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CC1E8C8C223D862100EBBB07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CC1E8C8E223D862200EBBB07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC1E8C91223D862200EBBB07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC1E8C93223D862200EBBB07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,6 +53,8 @@
 		CC1E8CB5223D97FD00EBBB07 /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
 		CC1E8CB7223DA41400EBBB07 /* EventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
 		CC1E8CB9223DB6C100EBBB07 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		CC1E8CBB223EBF2D00EBBB07 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		CC1E8CBF223EC0E600EBBB07 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,8 +110,9 @@
 				CC1E8CB5223D97FD00EBBB07 /* LocationViewController.swift */,
 				CC1E8CB9223DB6C100EBBB07 /* Extension.swift */,
 				CC1E8CB7223DA41400EBBB07 /* EventTableViewCell.swift */,
-				CC1E8C8B223D862100EBBB07 /* Main.storyboard */,
+				CC1E8CBB223EBF2D00EBBB07 /* Main.storyboard */,
 				CC1E8C8E223D862200EBBB07 /* Assets.xcassets */,
+				CC1E8CBF223EC0E600EBBB07 /* ProfileViewController.swift */,
 				CC1E8C90223D862200EBBB07 /* LaunchScreen.storyboard */,
 				CC1E8C93223D862200EBBB07 /* Info.plist */,
 			);
@@ -238,9 +241,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC1E8CBC223EBF2D00EBBB07 /* Main.storyboard in Resources */,
 				CC1E8C92223D862200EBBB07 /* LaunchScreen.storyboard in Resources */,
 				CC1E8C8F223D862200EBBB07 /* Assets.xcassets in Resources */,
-				CC1E8C8D223D862100EBBB07 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +271,7 @@
 				CC1E8CBA223DB6C100EBBB07 /* Extension.swift in Sources */,
 				CC1E8CB8223DA41400EBBB07 /* EventTableViewCell.swift in Sources */,
 				CC1E8CB6223D97FD00EBBB07 /* LocationViewController.swift in Sources */,
+				CC1E8CC0223EC0E600EBBB07 /* ProfileViewController.swift in Sources */,
 				CC1E8C8A223D862100EBBB07 /* ViewController.swift in Sources */,
 				CC1E8C88223D862100EBBB07 /* AppDelegate.swift in Sources */,
 			);
@@ -305,14 +309,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CC1E8C8B223D862100EBBB07 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CC1E8C8C223D862100EBBB07 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CC1E8C90223D862200EBBB07 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
