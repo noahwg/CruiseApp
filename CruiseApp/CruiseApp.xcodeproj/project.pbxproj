@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC1E8C88223D862100EBBB07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1E8C87223D862100EBBB07 /* AppDelegate.swift */; };
+		CC1E8C8A223D862100EBBB07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1E8C89223D862100EBBB07 /* ViewController.swift */; };
+		CC1E8C8D223D862100EBBB07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC1E8C8B223D862100EBBB07 /* Main.storyboard */; };
+		CC1E8C8F223D862200EBBB07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC1E8C8E223D862200EBBB07 /* Assets.xcassets */; };
+		CC1E8C92223D862200EBBB07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC1E8C90223D862200EBBB07 /* LaunchScreen.storyboard */; };
+		CC1E8C9D223D862200EBBB07 /* CruiseAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1E8C9C223D862200EBBB07 /* CruiseAppTests.swift */; };
+		CC1E8CA8223D862200EBBB07 /* CruiseAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1E8CA7223D862200EBBB07 /* CruiseAppUITests.swift */; };
+		CC1E8CB6223D97FD00EBBB07 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1E8CB5223D97FD00EBBB07 /* LocationViewController.swift */; };
+		CC1E8CB8223DA41400EBBB07 /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1E8CB7223DA41400EBBB07 /* EventTableViewCell.swift */; };
+		CC1E8CBA223DB6C100EBBB07 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1E8CB9223DB6C100EBBB07 /* Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC1E8C99223D862200EBBB07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC1E8C7C223D862000EBBB07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC1E8C83223D862100EBBB07;
+			remoteInfo = CruiseApp;
+		};
+		CC1E8CA4223D862200EBBB07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC1E8C7C223D862000EBBB07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC1E8C83223D862100EBBB07;
+			remoteInfo = CruiseApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC1E8C84223D862100EBBB07 /* CruiseApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CruiseApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC1E8C87223D862100EBBB07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC1E8C89223D862100EBBB07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC1E8C8C223D862100EBBB07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC1E8C8E223D862200EBBB07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC1E8C91223D862200EBBB07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC1E8C93223D862200EBBB07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC1E8C98223D862200EBBB07 /* CruiseAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CruiseAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC1E8C9C223D862200EBBB07 /* CruiseAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CruiseAppTests.swift; sourceTree = "<group>"; };
+		CC1E8C9E223D862200EBBB07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC1E8CA3223D862200EBBB07 /* CruiseAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CruiseAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC1E8CA7223D862200EBBB07 /* CruiseAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CruiseAppUITests.swift; sourceTree = "<group>"; };
+		CC1E8CA9223D862200EBBB07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC1E8CB5223D97FD00EBBB07 /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		CC1E8CB7223DA41400EBBB07 /* EventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
+		CC1E8CB9223DB6C100EBBB07 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC1E8C81223D862100EBBB07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC1E8C95223D862200EBBB07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC1E8CA0223D862200EBBB07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC1E8C7B223D862000EBBB07 = {
+			isa = PBXGroup;
+			children = (
+				CC1E8C86223D862100EBBB07 /* CruiseApp */,
+				CC1E8C9B223D862200EBBB07 /* CruiseAppTests */,
+				CC1E8CA6223D862200EBBB07 /* CruiseAppUITests */,
+				CC1E8C85223D862100EBBB07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC1E8C85223D862100EBBB07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC1E8C84223D862100EBBB07 /* CruiseApp.app */,
+				CC1E8C98223D862200EBBB07 /* CruiseAppTests.xctest */,
+				CC1E8CA3223D862200EBBB07 /* CruiseAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC1E8C86223D862100EBBB07 /* CruiseApp */ = {
+			isa = PBXGroup;
+			children = (
+				CC1E8C87223D862100EBBB07 /* AppDelegate.swift */,
+				CC1E8C89223D862100EBBB07 /* ViewController.swift */,
+				CC1E8CB5223D97FD00EBBB07 /* LocationViewController.swift */,
+				CC1E8CB9223DB6C100EBBB07 /* Extension.swift */,
+				CC1E8CB7223DA41400EBBB07 /* EventTableViewCell.swift */,
+				CC1E8C8B223D862100EBBB07 /* Main.storyboard */,
+				CC1E8C8E223D862200EBBB07 /* Assets.xcassets */,
+				CC1E8C90223D862200EBBB07 /* LaunchScreen.storyboard */,
+				CC1E8C93223D862200EBBB07 /* Info.plist */,
+			);
+			path = CruiseApp;
+			sourceTree = "<group>";
+		};
+		CC1E8C9B223D862200EBBB07 /* CruiseAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC1E8C9C223D862200EBBB07 /* CruiseAppTests.swift */,
+				CC1E8C9E223D862200EBBB07 /* Info.plist */,
+			);
+			path = CruiseAppTests;
+			sourceTree = "<group>";
+		};
+		CC1E8CA6223D862200EBBB07 /* CruiseAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC1E8CA7223D862200EBBB07 /* CruiseAppUITests.swift */,
+				CC1E8CA9223D862200EBBB07 /* Info.plist */,
+			);
+			path = CruiseAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC1E8C83223D862100EBBB07 /* CruiseApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC1E8CAC223D862200EBBB07 /* Build configuration list for PBXNativeTarget "CruiseApp" */;
+			buildPhases = (
+				CC1E8C80223D862100EBBB07 /* Sources */,
+				CC1E8C81223D862100EBBB07 /* Frameworks */,
+				CC1E8C82223D862100EBBB07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CruiseApp;
+			productName = CruiseApp;
+			productReference = CC1E8C84223D862100EBBB07 /* CruiseApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC1E8C97223D862200EBBB07 /* CruiseAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC1E8CAF223D862200EBBB07 /* Build configuration list for PBXNativeTarget "CruiseAppTests" */;
+			buildPhases = (
+				CC1E8C94223D862200EBBB07 /* Sources */,
+				CC1E8C95223D862200EBBB07 /* Frameworks */,
+				CC1E8C96223D862200EBBB07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC1E8C9A223D862200EBBB07 /* PBXTargetDependency */,
+			);
+			name = CruiseAppTests;
+			productName = CruiseAppTests;
+			productReference = CC1E8C98223D862200EBBB07 /* CruiseAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC1E8CA2223D862200EBBB07 /* CruiseAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC1E8CB2223D862200EBBB07 /* Build configuration list for PBXNativeTarget "CruiseAppUITests" */;
+			buildPhases = (
+				CC1E8C9F223D862200EBBB07 /* Sources */,
+				CC1E8CA0223D862200EBBB07 /* Frameworks */,
+				CC1E8CA1223D862200EBBB07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC1E8CA5223D862200EBBB07 /* PBXTargetDependency */,
+			);
+			name = CruiseAppUITests;
+			productName = CruiseAppUITests;
+			productReference = CC1E8CA3223D862200EBBB07 /* CruiseAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC1E8C7C223D862000EBBB07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Noah Gerberick";
+				TargetAttributes = {
+					CC1E8C83223D862100EBBB07 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					CC1E8C97223D862200EBBB07 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CC1E8C83223D862100EBBB07;
+					};
+					CC1E8CA2223D862200EBBB07 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CC1E8C83223D862100EBBB07;
+					};
+				};
+			};
+			buildConfigurationList = CC1E8C7F223D862000EBBB07 /* Build configuration list for PBXProject "CruiseApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC1E8C7B223D862000EBBB07;
+			productRefGroup = CC1E8C85223D862100EBBB07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC1E8C83223D862100EBBB07 /* CruiseApp */,
+				CC1E8C97223D862200EBBB07 /* CruiseAppTests */,
+				CC1E8CA2223D862200EBBB07 /* CruiseAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC1E8C82223D862100EBBB07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC1E8C92223D862200EBBB07 /* LaunchScreen.storyboard in Resources */,
+				CC1E8C8F223D862200EBBB07 /* Assets.xcassets in Resources */,
+				CC1E8C8D223D862100EBBB07 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC1E8C96223D862200EBBB07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC1E8CA1223D862200EBBB07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC1E8C80223D862100EBBB07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC1E8CBA223DB6C100EBBB07 /* Extension.swift in Sources */,
+				CC1E8CB8223DA41400EBBB07 /* EventTableViewCell.swift in Sources */,
+				CC1E8CB6223D97FD00EBBB07 /* LocationViewController.swift in Sources */,
+				CC1E8C8A223D862100EBBB07 /* ViewController.swift in Sources */,
+				CC1E8C88223D862100EBBB07 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC1E8C94223D862200EBBB07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC1E8C9D223D862200EBBB07 /* CruiseAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC1E8C9F223D862200EBBB07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC1E8CA8223D862200EBBB07 /* CruiseAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC1E8C9A223D862200EBBB07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC1E8C83223D862100EBBB07 /* CruiseApp */;
+			targetProxy = CC1E8C99223D862200EBBB07 /* PBXContainerItemProxy */;
+		};
+		CC1E8CA5223D862200EBBB07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC1E8C83223D862100EBBB07 /* CruiseApp */;
+			targetProxy = CC1E8CA4223D862200EBBB07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC1E8C8B223D862100EBBB07 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC1E8C8C223D862100EBBB07 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC1E8C90223D862200EBBB07 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC1E8C91223D862200EBBB07 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC1E8CAA223D862200EBBB07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC1E8CAB223D862200EBBB07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC1E8CAD223D862200EBBB07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N8H2S98JQ5;
+				INFOPLIST_FILE = CruiseApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NoahGerberick.CruiseApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC1E8CAE223D862200EBBB07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N8H2S98JQ5;
+				INFOPLIST_FILE = CruiseApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NoahGerberick.CruiseApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CC1E8CB0223D862200EBBB07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CruiseAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NoahGerberick.CruiseAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CruiseApp.app/CruiseApp";
+			};
+			name = Debug;
+		};
+		CC1E8CB1223D862200EBBB07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CruiseAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NoahGerberick.CruiseAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CruiseApp.app/CruiseApp";
+			};
+			name = Release;
+		};
+		CC1E8CB3223D862200EBBB07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CruiseAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NoahGerberick.CruiseAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CruiseApp;
+			};
+			name = Debug;
+		};
+		CC1E8CB4223D862200EBBB07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CruiseAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NoahGerberick.CruiseAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CruiseApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC1E8C7F223D862000EBBB07 /* Build configuration list for PBXProject "CruiseApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC1E8CAA223D862200EBBB07 /* Debug */,
+				CC1E8CAB223D862200EBBB07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC1E8CAC223D862200EBBB07 /* Build configuration list for PBXNativeTarget "CruiseApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC1E8CAD223D862200EBBB07 /* Debug */,
+				CC1E8CAE223D862200EBBB07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC1E8CAF223D862200EBBB07 /* Build configuration list for PBXNativeTarget "CruiseAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC1E8CB0223D862200EBBB07 /* Debug */,
+				CC1E8CB1223D862200EBBB07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC1E8CB2223D862200EBBB07 /* Build configuration list for PBXNativeTarget "CruiseAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC1E8CB3223D862200EBBB07 /* Debug */,
+				CC1E8CB4223D862200EBBB07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC1E8C7C223D862000EBBB07 /* Project object */;
+}
